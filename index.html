@@ -5,24 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>ErrandAI — Smart errands. Real people.</title>
 
-  <!-- CSS -->
   <link rel="stylesheet" href="style.css" />
-
-  <!-- Supabase -->
   <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
 </head>
 <body>
 
   <div class="container">
+    <img src="logo.png" alt="ErrandAI Logo" class="logo" />
+
     <h1>ErrandAI</h1>
     <p class="tagline">Smart errands. Real people.</p>
 
+    <p class="description">
+      ErrandAI is an AI-powered platform connecting people who need quick errands
+      with trusted local runners. From daily tasks to professional services,
+      we make getting things done fast, simple, and local.
+      <br /><br />
+      🚧 Currently under development. Join the waitlist for early access.
+    </p>
+
     <form id="waitlist-form">
-      <input 
-        type="email" 
-        id="email" 
-        placeholder="Enter your email" 
-        required 
+      <input
+        type="email"
+        id="email"
+        placeholder="Enter your email"
+        required
       />
       <button type="submit">Join waitlist</button>
     </form>
